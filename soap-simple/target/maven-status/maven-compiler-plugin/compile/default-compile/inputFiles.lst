@@ -1,0 +1,4 @@
+/home/marycochran/git/soap-simple/src/main/java/com/redhat/consulting/fusequickstarts/karaf/soap/model/CustomerOrderResponse.java
+/home/marycochran/git/soap-simple/src/main/java/com/redhat/consulting/fusequickstarts/karaf/soap/route/CxfCodeFirstRoute.java
+/home/marycochran/git/soap-simple/src/main/java/com/redhat/consulting/fusequickstarts/karaf/soap/model/CustomerOrder.java
+/home/marycochran/git/soap-simple/src/main/java/com/redhat/consulting/fusequickstarts/karaf/soap/service/ws/CustomerOrderService.java
