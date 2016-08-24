@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1471989493549
+Bnd-LastModified: 1471998814432
 Build-Jdk: 1.8.0_101
 Built-By: marycochran
 Bundle-Blueprint: OSGI-INF/blueprint/camel-context.xml
 Bundle-ManifestVersion: 2
 Bundle-Name: A Camel Route
-Bundle-SymbolicName: com.redhat.consulting.fusequickstarts.soap-simple
+Bundle-SymbolicName: com.example.fusequickstarts.soap-simple
 Bundle-Version: 0.0.1.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Import-Package: org.apache.camel;version="[2.15,3)",org.apache.camel.bui

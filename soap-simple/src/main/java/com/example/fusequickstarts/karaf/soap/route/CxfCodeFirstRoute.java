@@ -1,11 +1,11 @@
-package com.redhat.consulting.fusequickstarts.karaf.soap.route;
+package com.example.fusequickstarts.karaf.soap.route;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 
-import com.redhat.consulting.fusequickstarts.karaf.soap.model.CustomerOrder;
-import com.redhat.consulting.fusequickstarts.karaf.soap.model.CustomerOrderResponse;
+import com.example.fusequickstarts.karaf.soap.model.CustomerOrder;
+import com.example.fusequickstarts.karaf.soap.model.CustomerOrderResponse;
 
 public class CxfCodeFirstRoute extends RouteBuilder{
 

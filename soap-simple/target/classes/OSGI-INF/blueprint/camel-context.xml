@@ -8,7 +8,7 @@
 	<!-- Define the CXF Endpoint -->
 	<cxf:cxfEndpoint id="customerOrderEndpoint"
 		address="/fusequickstarts-camelcxf-codefirst/customerorder"
-		serviceClass="com.redhat.consulting.fusequickstarts.karaf.soap.service.ws.CustomerOrderService" />
+		serviceClass="com.example.fusequickstarts.karaf.soap.service.ws.CustomerOrderService" />
 
 	<!-- The camel context which registers the route -->
 	<camel:camelContext id="fusequickstart-soap-camel"
@@ -16,7 +16,7 @@
 
 		<!-- Package Scanning finds the Routes -->
 		<packageScan>
-			<package>com.redhat.consulting.fusequickstarts.karaf.soap</package>
+			<package>com.example.fusequickstarts.karaf.soap</package>
 		</packageScan>
 	</camel:camelContext>
 

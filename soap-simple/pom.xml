@@ -4,7 +4,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.redhat.consulting.fusequickstarts</groupId>
+  <groupId>com.example.fusequickstarts</groupId>
   <artifactId>soap-simple</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -14,11 +14,12 @@
 	<properties>
 		<version.maven.compiler.plugin>3.2</version.maven.compiler.plugin>
 		<version.slf4j>1.7.6</version.slf4j>
-		<version.rest-assured>2.7.0</version.rest-assured>
-		<jboss.fuse.bom.version>6.2.1.redhat-084</jboss.fuse.bom.version>
-		<datagrid.version>6.5.1.Final-redhat-1</datagrid.version>
-		<infinispan.version>6.3.1.Final-redhat-1</infinispan.version> <!-- for JDG 6.5 -->
+<!-- 		<version.rest-assured>2.7.0</version.rest-assured> -->
+<!-- 		<jboss.fuse.bom.version>6.2.1.redhat-084</jboss.fuse.bom.version> -->
+<!-- 		<datagrid.version>6.5.1.Final-redhat-1</datagrid.version> -->
+<!-- 		<infinispan.version>6.3.1.Final-redhat-1</infinispan.version> for JDG 6.5 -->
 		<version.camel>2.15.1</version.camel>
+		<version.geronimo>1.1.3</version.geronimo>
 	</properties>
   
   	<dependencies>
@@ -53,7 +54,7 @@
 		<dependency>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-ws-metadata_2.0_spec</artifactId>
-            <version>1.1.3</version>
+            <version>${version.geronimo}</version>
         </dependency>
 	</dependencies>
 

@@ -1,4 +1,4 @@
-package com.redhat.consulting.fusequickstarts.karaf.soap.model;
+package com.example.fusequickstarts.karaf.soap.model;
 
 /**
  * Response Class for Customer Orders.

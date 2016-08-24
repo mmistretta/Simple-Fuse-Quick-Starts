@@ -1,10 +1,10 @@
-package com.redhat.consulting.fusequickstarts.karaf.soap.service.ws;
+package com.example.fusequickstarts.karaf.soap.service.ws;
 
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
-import com.redhat.consulting.fusequickstarts.karaf.soap.model.CustomerOrder;
-import com.redhat.consulting.fusequickstarts.karaf.soap.model.CustomerOrderResponse;
+import com.example.fusequickstarts.karaf.soap.model.CustomerOrder;
+import com.example.fusequickstarts.karaf.soap.model.CustomerOrderResponse;
 
 /**
  * Customer Order Service
