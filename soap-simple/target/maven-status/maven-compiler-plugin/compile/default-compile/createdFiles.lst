@@ -1,6 +1,0 @@
-com/example/fusequickstarts/karaf/soap/model/CustomerOrder.class
-com/example/fusequickstarts/karaf/soap/model/CustomerOrderResponse.class
-com/example/fusequickstarts/karaf/soap/route/CxfCodeFirstRoute.class
-com/example/fusequickstarts/karaf/soap/service/ws/CustomerOrderService.class
-com/example/fusequickstarts/karaf/soap/route/CxfCodeFirstRoute$1.class
-com/example/fusequickstarts/karaf/soap/route/CxfCodeFirstRoute$2.class
