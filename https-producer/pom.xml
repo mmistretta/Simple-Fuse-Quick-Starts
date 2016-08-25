@@ -30,7 +30,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-http</artifactId>
+			<artifactId>camel-jetty</artifactId>
 			<version>${version.camel}</version>
 		</dependency>
 		<dependency>

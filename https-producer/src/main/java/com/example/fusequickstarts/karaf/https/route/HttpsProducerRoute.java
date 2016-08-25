@@ -10,7 +10,7 @@ public class HttpsProducerRoute extends RouteBuilder {
         from("timer://myHttpsTimer?fixedRate=true&period=2000")
             .routeId("https-producer")
             //TODO make https
-            .to("http://127.0.0.1:8182/sample");
+            .to("jetty:http://127.0.0.1:8182/sample");
     }
 
 }
